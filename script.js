@@ -78,8 +78,8 @@ function fetchBookmarks() {
     // Create bookmarks array in localStorage
     bookmarks = [
       {
-        name: 'Jacinto Design',
-        url: 'http://jacinto.design',
+        name: 'count-down',
+        url: 'https://barrieumaru.github.io/Custom-Countdown/',
       },
     ];
     localStorage.setItem('bookmarks', JSON.stringify(bookmarks));
