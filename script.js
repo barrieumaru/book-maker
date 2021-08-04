@@ -81,6 +81,10 @@ function fetchBookmarks() {
         name: 'count-down',
         url: 'https://barrieumaru.github.io/Custom-Countdown/',
       },
+      {
+        name: 'player',
+        url: 'https://barrieumaru.github.io/player/',
+      },
     ];
     localStorage.setItem('bookmarks', JSON.stringify(bookmarks));
   }
